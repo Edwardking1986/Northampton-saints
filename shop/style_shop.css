@@ -1,0 +1,200 @@
+body{
+	font-family: 'Roboto', Verdana, sans-serif;
+ 	background-color: #408450;
+
+}
+
+.banner {
+
+
+	width: 	100%;
+	height: 100px;
+
+}
+
+#container
+{
+	display: flex;	
+	flex-wrap: wrap;
+	box-sizing:border-box;
+	margin-right:auto;
+	margin-left:auto;
+	max-width: auto;	
+}
+#logo{
+	width: 800px;
+	margin: auto;
+}
+
+
+p{
+	font-size: .9rem;
+
+}
+
+
+
+/*--------  players profile cards----------  */
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 20px;
+
+}
+
+
+.playersPic{
+	width: 20%;
+	height: 20%;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 10px;
+
+
+}
+
+/*--------------     -----------*/
+
+.profile li{
+	color: black;
+	font-size: 15px;
+	display: flex;
+	flex-direction:column;
+	 		
+}
+
+
+.bottom_button{
+	display: flex;/*creates flex item*/
+	justify-content: center;
+	box-sizing:border-box;
+	border-radius: 4px;
+	display: block;
+	width: 100%;	
+	height: 50px;
+	background-color:#fff056;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+	color:  #fdcf10;
+
+
+}
+
+
+
+
+.card{
+	 /* equal width to cards applied*/
+	display:-webkit-flex;
+	display:-moz-flex;
+	display:-moz-box;
+	display:-webkit-box;
+	display:-ms-flexbox;
+
+	flex-flow: column;
+	flex-direction: column;	/* */
+	min-width: 240px; /**/
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff;
+	
+}
+
+.productPick{}
+
+
+#my_footer{
+	width:100%;
+	text-align: center;
+}
+#copyright{
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+
+/*************************
+Navigation
+
+**************************/
+
+nav{
+	font-family: roboto;
+	background-color: #0a0a0a;
+	margin: 0px auto;
+	width: 100%;
+}	
+	
+nav ul li:hover {
+	background-color:#fdcf10;
+	transition: all .2s ease;
+		
+}
+ul{
+	display: flex;/*assigns as a flex container*/
+	justify-content:space-between;
+	flex-flow: row;/*direction of flex*/
+	align-items:baseline;
+	border-radius: 2px;
+	list-style-type: none; /*Remove Bullets*/
+	padding: 0;	
+}
+li{
+	flex:1;/*sets equal width to flex items*/
+	height: 10px;
+	font-family: Dosis;
+	padding:20px 20px 20px 20px;
+	text-align: center;
+	font-size: 1.3em;
+	color: white;
+	border-radius: 5%;
+
+
+}
+
+#logoNav{
+	flex:6;
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+
+}
+
+.underline{
+  text-decoration:underline;
+}
+.border{
+  border: solid 5px #ccc;
+}
+
+/*for desktop layout*/
+@media screen and (max-width: 700px){
+
+	
+	ul{
+		flex-flow: column;
+		align-items:center;
+	}
+	li{
+		font-size: 2em;
+	}
+
+	 
+	#collapse{
+		display: 
+	}
+
+
+
+
+
+	
+	}
+}
+
+

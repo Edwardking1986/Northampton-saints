@@ -1,0 +1,207 @@
+body{
+	font-family: 'Roboto', Verdana, sans-serif;
+ 	background-color: #408450;
+
+}
+
+.banner {
+
+
+	width: 	100%;
+	height: 200px;
+
+}
+
+h1{
+	font-size: 3em;
+	text-align: wrap;
+}
+h2{
+	font-size: 1em;
+	text-align: wrap;
+	position: relative;
+}
+p{
+	font-size: .9rem;
+
+
+}
+p.text{
+	background-color: red;
+}
+
+div{
+	border-radius: 4px;
+	text-align: left;
+
+}
+
+.card_image{
+	width: 50%;
+	height: 50%;
+	padding-right: 5px;
+	border-radius: 5px;
+}
+.bottom_button{
+	display: flex;/*creates flex item*/
+	justify-content: center;
+	box-sizing:border-box;
+	border-radius: 4px;
+	display: block;
+	width: 100%;	
+	height: 50px;
+	background-color:#fff056;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+	color: #fdcf10;
+
+
+}
+
+
+.card_bottom{
+	display: wrap;
+	flex-flow:column;/*sets flex direction*/\
+
+}
+.card_head{
+	flex:0;
+
+}
+.card_para{
+	flex: wrap;
+
+}
+
+#container
+{
+	box-sizing:border-box;
+	margin-right:auto;
+	margin-left:auto;
+	max-width:1050px;		
+}
+#logo{
+	width: 800px;
+	margin: auto;
+}
+
+.card{
+	flex:1; /* equal width to cards applied*/
+	display: flex;	/* make the contents controllable by flexbox*/
+	flex-flow; float:  	/* */
+	min-width: 240px; /**/
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff;
+	
+}
+/*adds colour red to paragraphs when called by jquery function*/
+.highlight_text{
+	background-color: #EB5255;
+}
+/*adds colour lightblue to h2 background when called by jquery function*/
+.h2_color{
+	background-color: lightblue;
+	
+}
+/*increases font-size of  h2 when called by jquery function*/
+.h2_font_size{
+	font-size: 2em;
+}
+
+
+#my_footer{
+	width:100%;
+	text-align: center;
+}
+#copyright{
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+
+/*************************
+Navigation
+
+**************************/
+
+nav{
+	font-family: roboto;
+	background-color: #0a0a0a;
+	margin: 0px auto;
+	width: 100%;
+}	
+	
+nav ul li:hover {
+	background-color:#fdcf10;
+	transition: all .2s ease;
+	height: auto;
+
+		
+}
+ul{
+	display: flex;/*assigns as a flex container*/
+	justify-content:space-between;
+	flex-flow: row;/*direction of flex*/
+	align-items:baseline;
+	list-style-type: none; /*Remove Bullets*/
+	padding-bottom:0px;
+	height: 80px;	
+}
+li{
+	flex:1;/*sets equal width to flex items*/
+	height: 10px;
+	font-family: Dosis;
+	padding:20px 20px 20px 20px;
+	text-align: center;
+	font-size: 1.3em;
+	color: white;
+}
+
+#logoNav{
+	flex:6;
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+
+}
+
+.underline{
+  text-decoration:underline;
+}
+.border{
+  border: solid 5px #ccc;
+}
+
+
+/*for desktop layout*/
+@media screen and (max-width: 700px){
+
+	nav{
+		height: 450px;
+	}
+	
+	ul{
+		flex-flow: column;
+		align-items:center;
+
+	}
+	li{
+		font-size: 2em;
+	}
+
+	 
+	#collapse{
+		display: 
+	}
+
+
+
+
+
+	
+	}
+}
+
+
