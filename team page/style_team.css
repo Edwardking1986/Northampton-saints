@@ -26,9 +26,7 @@ body{
 }
 
 
-.profile_text{
-	width: 100%;
-}
+
 
 
 
@@ -66,6 +64,32 @@ h2 {
 	 		
 }
 
+.card{
+	
+	min-width: 240px; 
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+.info{
+	flex:1; /* equal width to cards applied*/
+	display: flex;	
+	
+
+}
+
+.container{
+	width: 100%;
+	padding: 30px;
+}
+
+
+
+
+
+
 /*---------------------------------*/
 
 
@@ -89,36 +113,6 @@ h2 {
 
 
 
-
-.card{
-	
-	min-width: 240px; /**/
-	margin: 10px;
-	padding: 20px;
-	background-color: #fff;
-	border-radius: 5px;
-}
-
-.info{
-	flex:1; /* equal width to cards applied*/
-	display: flex;	
-	
-
-}
-
-
-
-
-#my_footer{
-	width:100%;
-	text-align: center;
-}
-#copyright{
-	margin-top:10px;
-	margin-bottom:10px;
-
-}
-
 /*************************
 Navigation
 
@@ -129,15 +123,19 @@ nav{
 	background-color: #0a0a0a;
 	margin: 0px auto;
 	width: 100%;
+
+
 }	
 	
 nav ul li:hover {
 	background-color:#fdcf10;
 	transition: all .2s ease;
 	height: auto;
-
-		
+	border-radius: 10px;
+	
 }
+
+
 ul{
 	display: flex;/*assigns as a flex container*/
 	justify-content:space-between;
@@ -149,12 +147,16 @@ ul{
 }
 li{
 	flex:1;/*sets equal width to flex items*/
+	justify-content: space-around;
 	height: 10px;
 	font-family: Dosis;
 	padding:20px 20px 20px 20px;
 	text-align: center;
 	font-size: 1.3em;
 	color: white;
+
+
+
 }
 
 #logoNav{
@@ -162,8 +164,14 @@ li{
 	text-align: left;
 	font-size: 2em;
 	font-weight: bold;
+	background-color: none
+
+
+
 
 }
+
+
 
 
 .border{
@@ -179,7 +187,37 @@ li{
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
+  position: left;
+
 }
+
+
+#News  {
+	text-decoration: none;
+ 	color: white;
+
+}
+
+#ClubHistory {
+	text-decoration: none;
+ 	color: white;
+
+}
+
+#Fixturs {
+	text-decoration: none;
+ 	color: white;
+}
+
+#Teams {
+	text-decoration: none;
+ 	color: white;
+}
+
+
+
+
+
 
 
 
@@ -187,7 +225,7 @@ li{
 @media screen and (max-width: 700px){
 
 	nav {
-		height: 450px;
+		height: 500px;
 	}
 
 

@@ -107,6 +107,7 @@ nav ul li:hover {
 	background-color:#fdcf10;
 	transition: all .2s ease;
 	height: auto;
+	border-radius: 10px;
 
 		
 }
@@ -142,6 +143,28 @@ li{
 }
 .border{
   border: solid 5px #ccc;
+}
+
+#News  {
+	text-decoration: none;
+ 	color: white;
+
+}
+
+#ClubHistory {
+	text-decoration: none;
+ 	color: white;
+
+}
+
+#Fixturs {
+	text-decoration: none;
+ 	color: white;
+}
+
+#Teams {
+	text-decoration: none;
+ 	color: white;
 }
 
 
