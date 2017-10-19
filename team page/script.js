@@ -1,4 +1,4 @@
- 
+ // this allows us to filter players profile
  function searchFilter () {
  	var filter = document.getElementById("myInput").value.toUpperCase()
  	var cards = document.getElementsByClassName("card");
@@ -11,3 +11,4 @@
 		}
  	}
  }
+
