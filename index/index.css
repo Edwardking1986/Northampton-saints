@@ -98,7 +98,11 @@ li{
 .useerInput {
 	padding-left: 100px;
 	flex-flow: row
-}
+}	
+	
+		.newsLetter{
+			margin: 10px;
+		}
 
 
         legend {
@@ -114,16 +118,18 @@ li{
             width: 100px;
             float: left;
             clear: both;
-            padding: 5px;
+            margin: 10px;
+
 
         }
         input {
             border-radius: 5px;
-            padding: 6px 8px;
+            width: 200px;
             float: left;
+
         }
         .field {
-            padding: 6px 8px;
+            padding: ;
         }
         fieldset {
             width: 450px;
@@ -133,6 +139,17 @@ li{
             margin-bottom: 100px;
             background-color:rgba(129, 187, 201,.2);
         }
+
+        select {
+        
+            float: left;
+            border-radius: 5px;
+            width: 200px;
+            height: 26px;
+
+        }
+
+
 
 
 
