@@ -64,8 +64,7 @@ h2 {
 	 		
 }
 
-.card{
-	
+.card{	
 	min-width: 240px; 
 	margin: 10px;
 	padding: 20px;
@@ -76,7 +75,6 @@ h2 {
 .info{
 	flex:1; /* equal width to cards applied*/
 	display: flex;	
-	
 
 }
 
@@ -121,20 +119,19 @@ Navigation
 nav{
 	font-family: roboto;
 	background-color: #0a0a0a;
-	margin: 0px auto;
+	
 	width: 100%;
-
-
 }	
 	
 nav ul li:hover {
 	background-color:#fdcf10;
 	transition: all .2s ease;
 	height: auto;
-	border-radius: 10px;
-	
-}
+	border-radius: 10px;	
+	padding: 5px;
+	margin: 10px;
 
+}
 
 ul{
 	display: flex;/*assigns as a flex container*/
@@ -145,18 +142,24 @@ ul{
 	padding-bottom:0px;
 	height: 80px;	
 }
+
+#navBar{
+	display: flex;/*assigns as a flex container*/
+	justify-content:space-between;
+	flex-flow: row;/*direction of flex*/
+	align-items:baseline;
+	list-style-type: none; /*Remove Bullets*/	
+	height: 100px;	
+}
+
 li{
 	flex:1;/*sets equal width to flex items*/
-	justify-content: space-around;
 	height: 10px;
 	font-family: Dosis;
 	padding:20px 20px 20px 20px;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1em;
 	color: white;
-
-
-
 }
 
 #logoNav{
@@ -164,19 +167,38 @@ li{
 	text-align: left;
 	font-size: 2em;
 	font-weight: bold;
-	background-color: none
-
-
-
-
 }
 
-
-
+.underline{
+  text-decoration:underline;
+}
 
 .border{
   border: solid 5px #ccc;
 }
+
+#navText {
+	text-decoration: none;
+ 	color: white;
+ 	font-size: 1.5em;
+}
+
+#newsLetter {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	width: 500px;
+	flex: left;
+}
+
+.useerInput {
+	padding-left: 100px;
+	flex-flow: row
+}	
+
+/***********************
+	find player
+***********************/
 
 #myInput {
   background-image: url('/css/searchicon.png');		
@@ -190,32 +212,6 @@ li{
   position: left;
 
 }
-
-
-#News  {
-	text-decoration: none;
- 	color: white;
-
-}
-
-#ClubHistory {
-	text-decoration: none;
- 	color: white;
-
-}
-
-#Fixturs {
-	text-decoration: none;
- 	color: white;
-}
-
-#Teams {
-	text-decoration: none;
- 	color: white;
-}
-
-
-
 
 
 

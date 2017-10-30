@@ -99,7 +99,7 @@ Navigation
 nav{
 	font-family: roboto;
 	background-color: #0a0a0a;
-	margin: 0px auto;
+	
 	width: 100%;
 }	
 	
@@ -107,10 +107,12 @@ nav ul li:hover {
 	background-color:#fdcf10;
 	transition: all .2s ease;
 	height: auto;
-	border-radius: 10px;
+	border-radius: 10px;	
+	padding: 5px;
+	margin: 10px;
 
-		
 }
+
 ul{
 	display: flex;/*assigns as a flex container*/
 	justify-content:space-between;
@@ -118,15 +120,25 @@ ul{
 	align-items:baseline;
 	list-style-type: none; /*Remove Bullets*/
 	padding-bottom:0px;
-	height: 80px	
+	height: 80px;	
 }
+
+#navBar{
+	display: flex;/*assigns as a flex container*/
+	justify-content:space-between;
+	flex-flow: row;/*direction of flex*/
+	align-items:baseline;
+	list-style-type: none; /*Remove Bullets*/	
+	height: 100px;	
+}
+
 li{
 	flex:1;/*sets equal width to flex items*/
 	height: 10px;
 	font-family: Dosis;
 	padding:20px 20px 20px 20px;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1em;
 	color: white;
 }
 
@@ -135,37 +147,35 @@ li{
 	text-align: left;
 	font-size: 2em;
 	font-weight: bold;
-
 }
 
 .underline{
   text-decoration:underline;
 }
+
 .border{
   border: solid 5px #ccc;
 }
 
-#News  {
+#navText {
 	text-decoration: none;
  	color: white;
-
+ 	font-size: 1.5em;
 }
 
-#ClubHistory {
-	text-decoration: none;
- 	color: white;
-
+#newsLetter {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	width: 500px;
+	flex: left;
 }
 
-#Fixturs {
-	text-decoration: none;
- 	color: white;
-}
+.useerInput {
+	padding-left: 100px;
+	flex-flow: row
+}	
 
-#Teams {
-	text-decoration: none;
- 	color: white;
-}
 
 
 /*for desktop layout*/
@@ -184,16 +194,6 @@ li{
 	}
 
 	 
-	#collapse{
-		display: 
-	}
-
-
-
-
-
-	
-	}
 }
 
 

@@ -72,7 +72,7 @@ Navigation
 nav{
 	font-family: roboto;
 	background-color: #0a0a0a;
-	margin: 0px auto;
+	
 	width: 100%;
 }	
 	
@@ -80,17 +80,20 @@ nav ul li:hover {
 	background-color:#fdcf10;
 	transition: all .2s ease;
 	height: auto;
-	border-radius: 10px		
+	border-radius: 10px;	
+	padding: 5px;
+	margin: 10px;
+
 }
 
-ul{
+#navBar{
 	display: flex;/*assigns as a flex container*/
 	justify-content:space-between;
 	flex-flow: row;/*direction of flex*/
 	align-items:baseline;
 	list-style-type: none; /*Remove Bullets*/
-	padding-bottom:0px;
-	height: 80px	
+	
+	height: 100px;	
 }
 
 li{
@@ -99,9 +102,11 @@ li{
 	font-family: Dosis;
 	padding:20px 20px 20px 20px;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1em;
 	color: white;
 }
+
+
 
 #logoNav{
 	flex:6;
@@ -118,24 +123,24 @@ li{
   border: solid 5px #ccc;
 }
 
-#News  {
+#navText {
 	text-decoration: none;
  	color: white;
+ 	font-size: 1.5em;
 }
 
-#ClubHistory {
-	text-decoration: none; 	color: white;
+#newsLetter {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	width: 500px;
+	flex: left;
 }
 
-#Fixturs {
-	text-decoration: none;
- 	color: white;
-}
-
-#Teams {
-	text-decoration: none;
- 	color: white;
-}
+.useerInput {
+	padding-left: 100px;
+	flex-flow: row
+}	
 
 /* for mobile and tablets sccens */
 @media screen and (max-width: 700px){

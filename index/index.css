@@ -18,7 +18,7 @@ body{
 	box-sizing:border-box;
 	margin-right:auto;
 	margin-left:auto;
-	max-width: auto;	
+	max-width: auto
 }
 #logo{
 	width: 800px;
@@ -33,7 +33,7 @@ Navigation
 nav{
 	font-family: roboto;
 	background-color: #0a0a0a;
-	margin: 0px auto;
+	
 	width: 100%;
 }	
 	
@@ -43,16 +43,18 @@ nav ul li:hover {
 	height: auto;
 	border-radius: 10px;	
 	padding: 5px;
+	margin: 10px;
+
 }
 
-ul{
+#navBar{
 	display: flex;/*assigns as a flex container*/
 	justify-content:space-between;
 	flex-flow: row;/*direction of flex*/
 	align-items:baseline;
 	list-style-type: none; /*Remove Bullets*/
 	
-	height: 80px;	
+	height: 100px;	
 }
 
 li{
@@ -61,7 +63,7 @@ li{
 	font-family: Dosis;
 	padding:20px 20px 20px 20px;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1em;
 	color: white;
 }
 
@@ -85,6 +87,7 @@ li{
 #navText {
 	text-decoration: none;
  	color: white;
+ 	font-size: 1.5em;
 }
 
 #newsLetter {
@@ -99,11 +102,20 @@ li{
 	padding-left: 100px;
 	flex-flow: row
 }	
-	
+		/*******************************
+		/*Registration For News Letter*/
+
 		.newsLetter{
 			margin: 10px;
+			display: flex;
+			flex: wrap;
+			height: 500px;
 		}
 
+		#newsLettesText{
+			text-decoration: none;
+			color: white;
+		}
 
         legend {
             font-size: 20px;
@@ -111,45 +123,163 @@ li{
             border-radius: 5px;
             border: 1px solid #999;
             padding: 4px 15px;
+            text-align: center;
         }
+
         label.field {
             display: block;
-            text-align: right;
-            width: 100px;
+            text-align: center;
+            width: 150px;
             float: left;
             clear: both;
-            margin: 10px;
-
-
+            margin: 5px;
         }
+
         input {
             border-radius: 5px;
-            width: 200px;
-            float: left;
+            width: 200px;   
 
         }
-        .field {
-            padding: ;
-        }
+
         fieldset {
-            width: 450px;
+            width: 250px;
             border: 1px solid #999;
             border-radius: 20px;
-            padding: 20px;
-            margin-bottom: 100px;
+            padding: 10px;
             background-color:rgba(129, 187, 201,.2);
         }
 
-        select {
-        
+        select {       
             float: left;
             border-radius: 5px;
             width: 200px;
             height: 26px;
-
+            margin: 10px;
         }
 
+        .submiteButton{
+        	position: center;
+        	display: flex;
+        	justify-content: center;
+        	margin: 20px;
+        	width: 150px
+        }
+
+        option {
+        	text-align: center;
+        }
+/***********************************
+	latest news 
+************************/
+
+.card_image{
+	width: 50%;
+	height: 50%;
+	padding-right: 5px;
+	border-radius: 5px;
+}
+
+.bottom_button{
+	display: flex;/*creates flex item*/
+	justify-content: center;
+	box-sizing:border-box;
+	border-radius: 4px;
+	display: block;
+	width: 100%;	
+	height: 50px;
+	background-color:#fff056;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+	color: #fdcf10;
+}
+
+.cardNews{
+	flex:1; /* equal width to cards applied*/
+	display: flex;	/* make the contents controllable by flexbox*/
+	flex-flow:   
+	width: 400px;
+	max-width: 800px;
+	margin: 10px;
+	padding: 20px;
+	background-color: #fff;	
+	border-radius: 5px;
+	height: 500px;
+}
+
+.card_image{
+	width: 50%;
+	height: 50%;
+	padding-right: 5px;
+	border-radius: 5px;
+}
+
+.bottom_button{
+	display: flex;  /*creates flex item*/
+	justify-content: center;
+	box-sizing:border-box;
+	border-radius: 4px;
+	display: block;
+	width: 100%;	
+	height: 40px;
+	background-color:#fff056;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+	color: #fdcf10;
+}
 
 
+.card_bottom{
+	display: wrap;
+	flex-flow:column;  
+}
 
+.card_head{
+	flex:0;
+
+}
+
+.card_para{
+	display: flex;
+
+	
+
+}
+		/***********************
+			Next Game
+		**********************/
+			
+.nextGame{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 150px;
+	width: 1055px;
+	background-color: white;
+	border-radius: 5px;
+	max-width: 1050px;
+	padding: 20px;
+	margin: 20px;
+}
+
+#teamLogos {
+	width: 250px;
+	padding-left: 50px;
+	padding-right: 30px;
+	height: 100px;
+}
+
+#V{
+	font-size: 3em;
+	font-family: Georgia;
+}
+
+#fixDate {
+	display: flex;	
+	justify-content: center;
+	padding-right: 200px;
+	padding-left: 200px;
+	
+}
 
