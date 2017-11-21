@@ -12,6 +12,7 @@
 
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="saintsIndex.js"></script>
 	</head>
 	
 	<body>
@@ -24,28 +25,27 @@
 					<li ><a id="navText"  href="file:///Users/apple/Desktop/webSaints/news/saintsNews.html"> News</a></li>
 					<li ><a id="navText" href="file:///Users/apple/Desktop/webSaints/team%20page/saintsTeam.html"> Teams</a></li>
 					<li> <a id="navText" href="file:///Users/apple/Desktop/webSaints/saints%20fixturs/saintsFixturs.html"> Fixtures</a></li>
-					<li> <a id="navText" href="file:///Users/apple/Desktop/webSaints/history/saintsHistory.html"> Club History </a></li>
+					<li> <a id="navText" href="file:///Users/apple/Desktop/webSaints/history/saints_History.html"> Club History </a></li>
 					
 				</ul>	
 			</nav>
 		<div id="container">
-			<form >
+			<form name="myForm"  method="post" >
             <fieldset class="newsLetter">
                 <legend>Registration For News Letter</legend>
 
-                <p> If you would like to resive a update vier email.</p> 
+                <p> If you would like to resive a update vier email.</p>
 
-                <label for="fname" class="field">Name</label>
-                <input type="text" id="fname" placeholder="required field" name="fname"/>
-
-                <label for="password" class ="field">Password</label>
-                <input id="password" name="password" placeholder="enter password" type="password"/>
+                <label for="fname" class="field">Full Name</label>
+                <input type="text" id="fname" name="fName" 
+                	   placeholder="pleas enter name" required> 
+                 
 
                 <label for="email" class ="field">Email</label>
-                <input id="email" name="email"  placeholder="enter email" type="email"/>
+                <input id="email" name="email"  placeholder="enter email" type="email" required >
 
                 <label for="gender" class="field">Gender</label>
-				<select id="gender" >
+				<select id="gender" required>
 				     <option value="male">male</option> 
 				     <option value="female">female</option>
 				     <option value="other">othere</option> 	
@@ -60,9 +60,11 @@
 				     <option value="40-50">40-50</option> 	
 				     <option value="50-60">50-60</option> 	
 				     <option value="60 and over">60 and over</option> 	
-				     <a class="fieldset" href="#" class="btn btn-success">submite</a>
+				     <a class="fieldset" class="btn btn-success">submite</a>
 				</select>
-				<a id="submiteButton" href="#" class="btn btn-success">submite</a>
+
+				<input id="submiteButton" value="submit" 
+					type="submit" class="btn btn-success"></input>
 			</fieldset>
 			
        		</form>	 

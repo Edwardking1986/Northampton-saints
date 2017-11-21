@@ -161,8 +161,8 @@ li{
         	position: center;
         	display: flex;
         	justify-content: center;
+        	width: 150px;
         	margin: 20px;
-        	width: 150px
         }
 
         option {
