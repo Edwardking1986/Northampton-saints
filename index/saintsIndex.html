@@ -12,7 +12,7 @@
 
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="saintsIndex.js"></script>
+		<script type="text/javascript" src="saintsIndsex.js"></script>
 	</head>
 	
 	<body>
@@ -20,17 +20,17 @@
 			<nav>
 				<img class="banner " src="northampton-header.jpg">
 				<ul id ="navBar">
-					<li id="logoNav" ><a id ="navText" href="file:///Users/apple/Desktop/webSaints/index/saintsIndex.html">
+					<li id="logoNav" ><a id ="navText" href="../index/saintsIndex.html">
 					Northampton saints </a></li> 					 
-					<li ><a id="navText"  href="file:///Users/apple/Desktop/webSaints/news/saintsNews.html"> News</a></li>
-					<li ><a id="navText" href="file:///Users/apple/Desktop/webSaints/team%20page/saintsTeam.html"> Teams</a></li>
-					<li> <a id="navText" href="file:///Users/apple/Desktop/webSaints/saints%20fixturs/saintsFixturs.html"> Fixtures</a></li>
-					<li> <a id="navText" href="file:///Users/apple/Desktop/webSaints/history/saints_History.html"> Club History </a></li>
-					
+					<li ><a id="navText"  href="../news/saintsNews.html"> News</a></li>
+					<li ><a id="navText" href="../team%20page/saintsTeam.html"> Teams</a></li>
+					<li> <a id="navText" href="../saints%20fixturs/saintsFixturs.html"> Fixtures</a></li>
+					<li> <a id="navText" href="../history/saints_History.html"> Club History </a></li>
+					<!-- TO DO change multpiule id to class -->
 				</ul>	
 			</nav>
 		<div id="container">
-			<form name="myForm"  method="post" >
+			<form id="newLetter">
             <fieldset class="newsLetter">
                 <legend>Registration For News Letter</legend>
 
@@ -63,8 +63,9 @@
 				     <a class="fieldset" class="btn btn-success">submite</a>
 				</select>
 
-				<input id="submiteButton" value="submit" 
-					type="submit" class="btn btn-success"></input>
+				<button id="submiteButton" value="submit" 
+					 	onclick="validateFilledOut()"  class="btn btn-success">Submit</button>
+					 	<!-- creat function for form subit -->
 			</fieldset>
 			
        		</form>	 
