@@ -20,86 +20,76 @@
 			<nav>
 				<img class="banner " src="northampton-header.jpg">
 				<ul id ="navBar">
-					<li id="logoNav" ><a id ="navText" href="../index/saintsIndex.html">
+					<li id="logoNav" ><a class="navText" href="../index/saintsIndex.html">
 					Northampton saints </a></li> 					 
-					<li ><a id="navText"  href="../news/saintsNews.html"> News</a></li>
-					<li ><a id="navText" href="../team%20page/saintsTeam.html"> Teams</a></li>
-					<li> <a id="navText" href="../saints%20fixturs/saintsFixturs.html"> Fixtures</a></li>
-					<li> <a id="navText" href="../history/saints_History.html"> Club History </a></li>
+					<li ><a class="navText"  href="../news/saintsNews.html"> News</a></li>
+					<li ><a class="navText" href="../team%20page/saintsTeam.html"> Teams</a></li>
+					<li> <a class="navText" href="../saints%20fixturs/saintsFixturs.html"> Fixtures</a></li>
+					<li> <a class="navText" href="../history/saints_History.html"> Club History </a></li>
 					<!-- TO DO change multpiule id to class -->
 				</ul>	
 			</nav>
-		<div id="container">
-			<form id="newLetter">
-            <fieldset class="newsLetter">
-                <legend>Registration For News Letter</legend>
+			<div id="container">
+				<form id="newLetter">
+	            <fieldset class="newsLetter">
+	                <legend>Registration For News Letter</legend>
 
-                <p> If you would like to resive a update vier email.</p>
+	                <p> If you would like to resive a update vier email.</p>
 
-                <label for="fname" class="field">Full Name</label>
-                <input type="text" id="fname" name="fName" 
-                	   placeholder="pleas enter name" required> 
-                 
+	                <label for="fname" class="field">Full Name</label>
+	                <input type="text" id="fname" name="fName" 
+	                	   placeholder="pleas enter name" required> 
+	                 
 
-                <label for="email" class ="field">Email</label>
-                <input id="email" name="email"  placeholder="enter email" type="email" required >
+	                <label for="email" class ="field">Email</label>
+	                <input id="email" name="email"  placeholder="enter email" type="email" required >
 
-                <label for="gender" class="field">Gender</label>
-				<select id="gender" required>
-				     <option value="male">male</option> 
-				     <option value="female">female</option>
-				     <option value="other">othere</option> 	
+	                <label for="gender" class="field">Gender</label>
+					<select id="gender" required>
+					     <option value="male">male</option> 
+					     <option value="female">female</option>
+					     <option value="other">othere</option> 	
 
-				</select> 
+					</select> 
 
-				<label for="age" class="field">Age</label>
-				<select id="age" >
-				     <option value="14-20">14-20</option> 
-				     <option value="20-30">20-30</option>
-				     <option value="20-40">30-40</option> 	
-				     <option value="40-50">40-50</option> 	
-				     <option value="50-60">50-60</option> 	
-				     <option value="60 and over">60 and over</option> 	
-				     <a class="fieldset" class="btn btn-success">submite</a>
-				</select>
+					<label for="age" class="field">Age</label>
+					<select id="age" >
+					     <option value="14-20">14-20</option> 
+					     <option value="20-30">20-30</option>
+					     <option value="20-40">30-40</option> 	
+					     <option value="40-50">40-50</option> 	
+					     <option value="50-60">50-60</option> 	
+					     <option value="60 and over">60 and over</option> 	
+					     <a class="fieldset" class="btn btn-success">submite</a>
+					</select>
 
-				<button id="submiteButton" value="submit" 
-					 	onclick="validateFilledOut()"  class="btn btn-success">Submit</button>
-					 	<!-- creat function for form subit -->
-			</fieldset>
-			
-       		</form>	 
-        	 
-        <div>
-        	<div class="cardNews">
-			<img class="card_image"
-			src= "https://az820690.vo.msecnd.net/media/3586/gettyimages-674795542.jpg">
-				<div class="card_bottom">
-					<h2 class="card_head">
-					Saints 24 - Exter 31
-					The Saints were well beaten at Sandy Park after a relentless display from the title chasing Chiefs.</h2>
-					
-					<p class="card_para"> Already missing the likes of Stephen Myler, George North and Louis Picamoles, the Saints lost skipper Tom Wood as a late injury withdrawal before kick off and Courtney Lawes shortly into a draining first half on the defensive in the South West.
+					<button type="submite" id="submiteButton" value="submit" onclick="validateFilledOut(); return false;" class="btn btn-success">submite</button>
+						 	<!-- creat function for form subit -->
+				</fieldset>
+				
+	       		</form>	 
+	        </div>	 
+	        <div>
+	        	<div class="cardNews">
+				<img class="card_image"
+				src= "https://az820690.vo.msecnd.net/media/3586/gettyimages-674795542.jpg" alt= "siants vs Exter">
+					<div class="card_bottom">
+						<h2 class="card_head">
+						Saints 24 - Exter 31
+						The Saints were well beaten at Sandy Park after a relentless display from the title chasing Chiefs.</h2>
+						
+						<p class="card_para"> Already missing the likes of Stephen Myler, George North and Louis Picamoles, the Saints lost skipper Tom Wood as a late injury withdrawal before kick off and Courtney Lawes shortly into a draining first half on the defensive in the South West.
 
-					While JJ Hanrahan's early score kept things close at the turnaround, the home side continued to dominate proceedings and chalked up six tries to coast clear in the second half, meaning the Saints' Champions Cup hopes will come down to a final day showdown with Harlequins at Franklin's Gardens next Saturday.</p>
+						While JJ Hanrahan's early score kept things close at the turnaround, the home side continued to dominate proceedings and chalked up six tries to coast clear in the second half, meaning the Saints' Champions Cup hopes will come down to a final day showdown with Harlequins at Franklin's Gardens next Saturday.</p>
 
-					<a class="bottom_button">contine reading </a>
-					
+						<a class="bottom_button" href="../news/saintsNews.html" >contine reading </a>				
+					</div>
 				</div>
-			</div>
-
-
-	    </div>  
-
+	    	</div>  
 	    <div class="nextGame">
-	     	<img id="teamLogos" src="https://cdn.soticservers.net/tools/images/teams/logos/RUGBY969513/d/NORT3133.svg">
-
+	     	<img id="teamLogos" src="https://cdn.soticservers.net/tools/images/teams/logos/RUGBY969513/d/NORT3133.svg" alt="saints logo">
 	    	<a id="V"> V </a>
-
-	    	<img id="teamLogos" src="https://cdn.soticservers.net/tools/images/teams/logos/RUGBY969513/d/LOND5443.svg">
-
+	    	<img id="teamLogos" src="https://cdn.soticservers.net/tools/images/teams/logos/RUGBY969513/d/LOND5443.svg" alt="wasps logo">
 	    	<a id="fixDate"> sat 30th OCT  </a>
 		</div>
-		</div>
-
 	</body>	

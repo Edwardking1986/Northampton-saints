@@ -84,7 +84,7 @@ li{
   border: solid 5px #ccc;
 }
 
-#navText {
+.navText {
 	text-decoration: none;
  	color: white;
  	font-size: 1.5em;
@@ -255,10 +255,9 @@ li{
 	flex-wrap: wrap;
 	justify-content: center;
 	height: 150px;
-	width: 1055px;
+	width: 95%;
 	background-color: white;
-	border-radius: 5px;
-	max-width: 1050px;
+	border-radius: 5px;	
 	padding: 20px;
 	margin: 20px;
 }
@@ -282,4 +281,74 @@ li{
 	padding-left: 200px;
 	
 }
+
+/* for mobile and tablets sccens */
+@media screen and (max-width: 700px){
+
+	nav{
+		flex-flow: column;
+		height: 450px;
+	}
+	
+	ul{
+		flex-flow: column;
+		align-items:center;
+
+	}
+	li{
+		font-size: 2em;
+	}	 
+
+	/*nav bar*/
+
+	#navBar {
+	flex-flow: column;
+	align-items: center;
+	padding: 10px;	
+	} 
+
+	.navText {
+ 	font-size: 1em;
+	}
+
+	/*next game div*/
+
+	.nextGame {
+		height: 200px;
+		width: 500px;
+	}
+
+	#fixDate {
+		flex-flow: row;
+		padding: 10px
+	}
+
+	#teamLogos{
+		padding: 5px;
+		width: 100px;
+		height: 100px;
+	}
+
+	#V{
+		padding-right: 50px;
+	padding-left: 50px;
+	}
+
+	/*card newa*/
+
+	.cardNews{
+		flex-flow: column;
+		align-items: center;
+		height: 100%;
+	}
+
+	.card_image{
+		width: 90%;
+	}
+
+
+
+
+}	
+
 

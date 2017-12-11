@@ -91,8 +91,7 @@ nav ul li:hover {
 	justify-content:space-between;
 	flex-flow: row;/*direction of flex*/
 	align-items:baseline;
-	list-style-type: none; /*Remove Bullets*/
-	
+	list-style-type: none; /*Remove Bullets*/	
 	height: 100px;	
 }
 
@@ -123,7 +122,7 @@ li{
   border: solid 5px #ccc;
 }
 
-#navText {
+.navText {
 	text-decoration: none;
  	color: white;
  	font-size: 1.5em;
@@ -150,14 +149,24 @@ li{
 		height: 450px;
 	}
 	
-	ul{
-		flex-flow: column;
-		align-items:center;
-
-	}
+	
 	li{
 		font-size: 2em;
-	}	 
+	}	
+
+	#navBar {
+	flex-flow: column;
+	align-items: center;
+	padding: 10px;
+	
+	} 
+
+	.navText {
+ 	font-size: 1em;
+
+	}
+
+
 }	
 
 /*pass thought jigsaw.w3.org/css-validator/*/

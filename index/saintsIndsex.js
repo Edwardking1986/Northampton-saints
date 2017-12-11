@@ -1,6 +1,5 @@
 
 
-function validateForm() {
-        alert("Name must be filled out");
-        return false;
+function validateFilledOut() {
+    alert("thank you for your request for the news letter!");
 }
