@@ -5,31 +5,21 @@ body{
 }
 
 .banner {
-
-
 	width: 	100%;
 	height: 200px;
-
 }
 
-#container
-{
-		
+#container{		
 	box-sizing:border-box;
 	margin-right:auto;
 	margin-left:auto;
 	max-width:1050px;	
 }
+
 #logo{
 	width: 800px;
 	margin: auto;
 }
-
-
-
-
-
-
 
 /*--------  players profile cards----------  */
 
@@ -38,21 +28,16 @@ h2 {
 	font-weight: bold;
 }
 
-
-
 .playersName {
 	margin-left: 15px;
 	font-size: 30Px
 }
-
 
 .playersPic{
 	width: 20%;
 	height: 20%;
 	border-radius: 10px;
 	margin: 15px;
-
-
 }
 
 
@@ -60,8 +45,7 @@ h2 {
 	color: black;
 	font-size: 15px;
 	display: flex;
-	flex-direction:column;
-	 		
+	flex-direction:column;	 		
 }
 
 .card{	
@@ -75,18 +59,12 @@ h2 {
 .info{
 	flex:1; /* equal width to cards applied*/
 	display: flex;	
-
 }
 
 .container{
 	width: 100%;
 	padding: 30px;
 }
-
-
-
-
-
 
 /*---------------------------------*/
 
@@ -104,8 +82,6 @@ h2 {
 	padding: 1em;
 	text-decoration: none;
 	color:  #fdcf10;
-
-
 }
 
 
@@ -149,7 +125,7 @@ ul{
 	flex-flow: row;/*direction of flex*/
 	align-items:baseline;
 	list-style-type: none; /*Remove Bullets*/	
-	height: 100px;	
+	height: 120px;	
 }
 
 li{
@@ -220,28 +196,26 @@ li{
 /*for desktop layout*/
 @media screen and (max-width: 700px){
 
-	nav {
-		height: 500px;
+	nav{
+		flex-flow: column;
+		height: 460px;
 	}
-
-
-	
+		
 	li{
 		font-size: 2em;
+		
 	}
 
 	#navBar {
 	flex-flow: column;
-	align-items: center;
-	padding: 10px;
-	
+	align-items: center;	
+	padding: 10px;	
 	} 
 
 	.navText {
  	font-size: 1em;
 
 	}
-	
 
 	.card {
 		display: flex;
@@ -253,7 +227,6 @@ li{
 		display: flex;
 		flex-flow: column;
 		align-items: center;
-
 	}
 
 	.profile{
@@ -266,10 +239,9 @@ li{
 		width: 50%;
 		border-radius: 10px;
 		margin: 15px;
-
 	}
 
-	}
 }
+
 
 

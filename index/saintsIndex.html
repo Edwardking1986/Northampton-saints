@@ -16,9 +16,9 @@
 	</head>
 	
 	<body>
-		<div id="container">  
+		<div id="navContainer">  
 			<nav>
-				<img class="banner " src="northampton-header.jpg">
+				<img class="banner " src="northampton-header.jpg" alt="northamptionTop">
 				<ul id ="navBar">
 					<li id="logoNav" ><a class="navText" href="../index/saintsIndex.html">
 					Northampton saints </a></li> 					 
@@ -29,6 +29,7 @@
 					<!-- TO DO change multpiule id to class -->
 				</ul>	
 			</nav>
+		</div>	
 			<div id="container">
 				<form id="newLetter">
 	            <fieldset class="newsLetter">
@@ -63,12 +64,11 @@
 					     <a class="fieldset" class="btn btn-success">submite</a>
 					</select>
 
-					<button type="submite" id="submiteButton" value="submit" onclick="validateFilledOut(); return false;" class="btn btn-success">submite</button>
+					<button type="submite" id="submiteButton" value="submit" 
+					 onclick="validateFilledOut(); return false;" class="btn btn-success">submite</button>
 						 	<!-- creat function for form subit -->
 				</fieldset>
-				
-	       		</form>	 
-	        </div>	 
+	       		</form>	 	 
 	        <div>
 	        	<div class="cardNews">
 				<img class="card_image"
@@ -87,9 +87,10 @@
 				</div>
 	    	</div>  
 	    <div class="nextGame">
-	     	<img id="teamLogos" src="https://cdn.soticservers.net/tools/images/teams/logos/RUGBY969513/d/NORT3133.svg" alt="saints logo">
+	     	<img class="teamLogos" src="https://cdn.soticservers.net/tools/images/teams/logos/RUGBY969513/d/NORT3133.svg" alt="saints logo">
 	    	<a id="V"> V </a>
-	    	<img id="teamLogos" src="https://cdn.soticservers.net/tools/images/teams/logos/RUGBY969513/d/LOND5443.svg" alt="wasps logo">
+	    	<img class="teamLogos" src="https://cdn.soticservers.net/tools/images/teams/logos/RUGBY969513/d/LOND5443.svg" alt="wasps logo">
 	    	<a id="fixDate"> sat 30th OCT  </a>
 		</div>
-	</body>	
+	</div>
+</body>	

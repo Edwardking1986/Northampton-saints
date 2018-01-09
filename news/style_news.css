@@ -18,11 +18,11 @@ h2{
 	text-align: wrap;
 	position: relative;
 }
+
 p{
 	font-size: 15px;
-
-
 }
+
 p.text{
 	background-color: red;
 }
@@ -38,6 +38,7 @@ div{
 	padding-right: 5px;
 	border-radius: 5px;
 }
+
 .bottom_button{
 	display: flex;/*creates flex item*/
 	justify-content: center;
@@ -53,7 +54,6 @@ div{
 	color: #fdcf10;
 }
 
-
 .card_bottom{
 	display: wrap;
 	flex-flow:column;/*sets flex direction*/\
@@ -61,20 +61,19 @@ div{
 }
 .card_head{
 	flex:0;
-
 }
+
 .card_para{
 	flex: wrap;
-
 }
 
-#container
-{
+#container{
 	box-sizing:border-box;
 	margin-right:auto;
 	margin-left:auto;
 	max-width:1050px;		
 }
+
 #logo{
 	width: 800px;
 	margin: auto;
@@ -87,9 +86,9 @@ div{
 	min-width: 240px; /**/
 	margin: 10px;
 	padding: 20px;
-	background-color: #fff;
-	
+	background-color: #fff;	
 }
+
 /*adds colour red to paragraphs when called by jquery function*/
 .highlight_text{
 	background-color: #EB5255;
@@ -103,7 +102,6 @@ div{
 .h2_font_size{
 	font-size: 2em;
 }
-
 
 #my_footer{
 	width:100%;
@@ -122,8 +120,7 @@ Navigation
 
 nav{
 	font-family: roboto;
-	background-color: #0a0a0a;
-	
+	background-color: #0a0a0a;	
 	width: 100%;
 }	
 	
@@ -134,30 +131,25 @@ nav ul li:hover {
 	border-radius: 10px;	
 	padding: 5px;
 	margin: 10px;
-
 }
 
 #navBar{
-	display: flex;/*assigns as a flex container*/
+	display: flex;
 	justify-content:space-between;
-	flex-flow: row;/*direction of flex*/
+	flex-flow: row;
 	align-items:baseline;
-	list-style-type: none; /*Remove Bullets*/
-	
+	list-style-type: none; 	
 	height: 100px;	
 }
 
 li{
-	flex:1;/*sets equal width to flex items*/
-	height: 10px;
+	flex:1;
 	font-family: Dosis;
 	padding:20px 20px 20px 20px;
 	text-align: center;
 	font-size: 1em;
 	color: white;
 }
-
-
 
 #logoNav{
 	flex:6;
@@ -198,7 +190,7 @@ li{
 @media screen and (max-width: 700px){
 
 	nav{
-		height: 450px;
+		height: 460px;
 	}
 	
 	ul{
@@ -207,6 +199,7 @@ li{
 	}
 	li{
 		font-size: 2em;
+		padding: 2px;
 	}
 
 	#navBar {

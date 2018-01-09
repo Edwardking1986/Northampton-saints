@@ -133,11 +133,12 @@ li{
 @media screen and (max-width: 700px){
 	
 	nav{
-		height: 450px;
+		height: 460px;
 	}
 	
 	li{
 		font-size: 2em;
+		
 	}
 
 	#navBar {

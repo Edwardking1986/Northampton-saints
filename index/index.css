@@ -11,14 +11,22 @@ body{
 
 }
 
-#container
-{
+#navContainer {
 	display: flex;	
 	flex-wrap: wrap;
 	box-sizing:border-box;
 	margin-right:auto;
 	margin-left:auto;
-	max-width: auto
+	max-width: auto;
+}
+
+#container{
+	display: flex;	
+	flex-wrap: wrap;
+	box-sizing:border-box;
+	margin-right:auto;
+	margin-left:auto;
+	max-width: auto;
 }
 #logo{
 	width: 800px;
@@ -32,8 +40,7 @@ Navigation
 
 nav{
 	font-family: roboto;
-	background-color: #0a0a0a;
-	
+	background-color: #0a0a0a;	
 	width: 100%;
 }	
 	
@@ -44,22 +51,19 @@ nav ul li:hover {
 	border-radius: 10px;	
 	padding: 5px;
 	margin: 10px;
-
 }
 
 #navBar{
-	display: flex;/*assigns as a flex container*/
+	display: flex;
 	justify-content:space-between;
-	flex-flow: row;/*direction of flex*/
+	flex-flow: row;
 	align-items:baseline;
-	list-style-type: none; /*Remove Bullets*/
-	
+	list-style-type: none;
 	height: 100px;	
 }
 
 li{
-	flex:1;/*sets equal width to flex items*/
-	height: 10px;
+	flex:1;
 	font-family: Dosis;
 	padding:20px 20px 20px 20px;
 	text-align: center;
@@ -102,72 +106,73 @@ li{
 	padding-left: 100px;
 	flex-flow: row
 }	
-		/*******************************
-		/*Registration For News Letter*/
+/*******************************
+/*Registration For News Letter*/
 
-		.newsLetter{
-			margin: 10px;
-			display: flex;
-			flex: wrap;
-			height: 500px;
-		}
+.newsLetter{
+	margin: 10px;
+	display: flex;
+	flex: wrap;
+	height: 500px;
+}
 
-		#newsLettesText{
-			text-decoration: none;
-			color: white;
-		}
+#newsLettesText{
+	text-decoration: none;
+	color: white;
+}
 
-        legend {
-            font-size: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            border: 1px solid #999;
-            padding: 4px 15px;
-            text-align: center;
-        }
+legend {
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 4px 15px;
+    text-align: center;
+}
 
-        label.field {
-            display: block;
-            text-align: center;
-            width: 150px;
-            float: left;
-            clear: both;
-            margin: 5px;
-        }
+label.field {
+    display: block;
+    text-align: center;
+    width: 150px;
+    float: left;
+    clear: both;
+    margin: 5px;
+}
 
-        input {
-            border-radius: 5px;
-            width: 200px;   
+input {
+    border-radius: 5px;
+    width: 200px;   
 
-        }
+}
 
-        fieldset {
-            width: 250px;
-            border: 1px solid #999;
-            border-radius: 20px;
-            padding: 10px;
-            background-color:rgba(129, 187, 201,.2);
-        }
+fieldset {
+    width: 250px;
+    border: 1px solid #999;
+    border-radius: 20px;
+    padding: 10px;
+    background-color:rgba(129, 187, 201,.2);
+}
 
-        select {       
-            float: left;
-            border-radius: 5px;
-            width: 200px;
-            height: 26px;
-            margin: 10px;
-        }
+select {       
+    float: left;
+    border-radius: 5px;
+    width: 200px;
+    height: 26px;
+    margin: 10px;
+}
 
-        .submiteButton{
-        	position: center;
-        	display: flex;
-        	justify-content: center;
-        	width: 150px;
-        	margin: 20px;
-        }
+#submiteButton{
+	position: center;
+	display: flex;
+	justify-content: center;
+	width: 150px;
+	margin: 40px;
+	border-radius: 5px;
+}
 
-        option {
-        	text-align: center;
-        }
+option {
+	text-align: center;
+}
 /***********************************
 	latest news 
 ************************/
@@ -180,7 +185,7 @@ li{
 }
 
 .bottom_button{
-	display: flex;/*creates flex item*/
+	display: flex;
 	justify-content: center;
 	box-sizing:border-box;
 	border-radius: 4px;
@@ -195,8 +200,8 @@ li{
 }
 
 .cardNews{
-	flex:1; /* equal width to cards applied*/
-	display: flex;	/* make the contents controllable by flexbox*/
+	flex:1; 
+	display: flex;	
 	flex-flow:   
 	width: 400px;
 	max-width: 800px;
@@ -262,7 +267,7 @@ li{
 	margin: 20px;
 }
 
-#teamLogos {
+.teamLogos {
 	width: 250px;
 	padding-left: 50px;
 	padding-right: 30px;
@@ -277,8 +282,8 @@ li{
 #fixDate {
 	display: flex;	
 	justify-content: center;
-	padding-right: 200px;
-	padding-left: 200px;
+	padding-right: 300px;
+	padding-left: 300px;
 	
 }
 
@@ -287,19 +292,18 @@ li{
 
 	nav{
 		flex-flow: column;
-		height: 450px;
+		height: 460px;
 	}
 	
 	ul{
 		flex-flow: column;
 		align-items:center;
-
 	}
+	
 	li{
 		font-size: 2em;
+		padding: 2px;
 	}	 
-
-	/*nav bar*/
 
 	#navBar {
 	flex-flow: column;
@@ -320,7 +324,7 @@ li{
 
 	#fixDate {
 		flex-flow: row;
-		padding: 10px
+		padding: 10px;
 	}
 
 	#teamLogos{
@@ -330,7 +334,7 @@ li{
 	}
 
 	#V{
-		padding-right: 50px;
+	padding-right: 50px;
 	padding-left: 50px;
 	}
 
@@ -345,9 +349,6 @@ li{
 	.card_image{
 		width: 90%;
 	}
-
-
-
 
 }	
 
