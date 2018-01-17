@@ -46,7 +46,7 @@
 	                <input id="email" name="email"  placeholder="enter email" type="email" required >
 
 	                <label for="gender" class="field">Gender</label>
-					<select id="gender" required>
+					<select id="gender" >
 					     <option value="male">male</option> 
 					     <option value="female">female</option>
 					     <option value="other">othere</option> 	
@@ -61,11 +61,11 @@
 					     <option value="40-50">40-50</option> 	
 					     <option value="50-60">50-60</option> 	
 					     <option value="60 and over">60 and over</option> 	
-					     <a class="fieldset" class="btn btn-success">submite</a>
+					     
 					</select>
 
-					<button type="submite" id="submiteButton" value="submit" 
-					  onclick="validateFilledOut(); return false;" class="btn btn-success">submite</button> 
+					<button id="submiteButton" value="submit" 
+					  onclick="validateFilledOut();" class="btn btn-success">submite</button> 
 						 	<!-- creat function for form subit -->
 				</fieldset>
 	       		</form>	 	 
