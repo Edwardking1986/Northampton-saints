@@ -47,8 +47,9 @@ Running the tests
 The web page has been fully test on a Manuel by hand 
 
 a full test of of each page has taken places on a step procsses 
+going though each link and ever change that a aguress useing CSS and Jarvascript. 
 
-on the team page a problem was found that the search opshion was not expeting space between the name. This was corrected by adding a replace comanded in the to the jarvscrip. 
+on the team page a problem was found that the search opshion was not expeting space between the name. This was corrected by adding a replace comanded in the to the jarvascrip. 
 
 
 Authors
