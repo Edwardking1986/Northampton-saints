@@ -152,26 +152,22 @@ li{
 @media screen and (max-width: 700px){
 
 	nav{
-		flex-flow: column;
 		height: 460px;
 	}
 	
-	
 	li{
 		font-size: 2em;
-		padding: 2px;
-	}	
+		
+	}
 
 	#navBar {
 	flex-flow: column;
 	align-items: center;
-	padding: 10px;
-	
+	padding: 10px;	
 	} 
 
 	.navText {
  	font-size: 1em;
-
 	}
 
 

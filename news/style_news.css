@@ -186,10 +186,6 @@ li{
 		height: 460px;
 	}
 	
-	ul{
-		flex-flow: column;
-		align-items:center;
-	}
 	li{
 		font-size: 2em;
 		padding: 2px;
