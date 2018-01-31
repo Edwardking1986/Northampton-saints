@@ -58,18 +58,20 @@ nav ul li:hover {
 	justify-content:space-between;
 	flex-flow: row;
 	align-items:baseline;
-	list-style-type: none;
-	height: 100px;	
+	list-style-type: none; 	
+	height: 120px;	
 }
 
 li{
 	flex:1;
+	height: 10px;
 	font-family: Dosis;
 	padding:20px 20px 20px 20px;
 	text-align: center;
 	font-size: 1em;
 	color: white;
 }
+
 
 
 
@@ -112,7 +114,6 @@ li{
 .newsLetter{
 	margin: 10px;
 	display: flex;
-	
 	height: 500px;
 }
 
@@ -288,19 +289,18 @@ option {
 /* for mobile and tablets sccens */
 @media screen and (max-width: 700px){
 
-	nav{
-		flex-flow: column;
-		height: 460px;
+	#container {
+		display: flex;
+		justify-content: center
 	}
-	
-	ul{
-		flex-flow: column;
-		align-items:center;
+
+	nav{
+		height: 460px;
 	}
 	
 	li{
 		font-size: 2em;
-		padding: 2px;
+		
 	}	 
 
 	#navBar {
@@ -315,10 +315,15 @@ option {
 
 	/*next game div*/
 
+	
 	.nextGame {
-		height: 200px;
-		width: 500px;
-	}
+		height: auto;
+		width: auto;
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+
+	}	
 
 	#fixDate {
 		flex-flow: row;
@@ -332,8 +337,8 @@ option {
 	}
 
 	#V{
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 110px;
+	padding-left: 110px;
 	}
 
 	/*card newa*/
@@ -348,11 +353,17 @@ option {
 		width: 90%;
 	}	
 
+	
+
 	@media screen and (max-width: 600px){
 
 .nextGame {
 		height: auto;
 		width: auto;
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+
 	}
 
 	#fixDate {
@@ -367,8 +378,10 @@ option {
 	}
 
 	#V{
-	padding-right: 5px;
-	padding-left: 5px;
+	flex-wrap: central;	
+	padding-right: 105px;
+	padding-left: 105px;
+
 	}
 
 

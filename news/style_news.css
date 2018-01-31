@@ -132,17 +132,19 @@ nav ul li:hover {
 	flex-flow: row;
 	align-items:baseline;
 	list-style-type: none; 	
-	height: 100px;	
+	height: 120px;	
 }
 
 li{
 	flex:1;
+	height: 10px;
 	font-family: Dosis;
 	padding:20px 20px 20px 20px;
 	text-align: center;
 	font-size: 1em;
 	color: white;
 }
+
 
 #logoNav{
 	flex:6;
@@ -188,7 +190,6 @@ li{
 	
 	li{
 		font-size: 2em;
-		padding: 2px;
 	}
 
 	#navBar {

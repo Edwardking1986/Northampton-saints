@@ -94,8 +94,7 @@ Navigation
 
 nav{
 	font-family: roboto;
-	background-color: #0a0a0a;
-	
+	background-color: #0a0a0a;	
 	width: 100%;
 }	
 	
@@ -106,30 +105,19 @@ nav ul li:hover {
 	border-radius: 10px;	
 	padding: 5px;
 	margin: 10px;
-
-}
-
-ul{
-	display: flex;/*assigns as a flex container*/
-	justify-content:space-between;
-	flex-flow: row;/*direction of flex*/
-	align-items:baseline;
-	list-style-type: none; /*Remove Bullets*/
-	padding-bottom:0px;
-	height: 80px;	
 }
 
 #navBar{
-	display: flex;/*assigns as a flex container*/
+	display: flex;
 	justify-content:space-between;
-	flex-flow: row;/*direction of flex*/
+	flex-flow: row;
 	align-items:baseline;
-	list-style-type: none; /*Remove Bullets*/	
+	list-style-type: none; 	
 	height: 120px;	
 }
 
 li{
-	flex:1;/*sets equal width to flex items*/
+	flex:1;
 	height: 10px;
 	font-family: Dosis;
 	padding:20px 20px 20px 20px;
@@ -137,6 +125,7 @@ li{
 	font-size: 1em;
 	color: white;
 }
+
 
 #logoNav{
 	flex:6;
@@ -197,13 +186,11 @@ li{
 @media screen and (max-width: 700px){
 
 	nav{
-		flex-flow: column;
 		height: 460px;
 	}
 		
 	li{
-		font-size: 2em;
-		
+		font-size: 2em;	
 	}
 
 	#navBar {
